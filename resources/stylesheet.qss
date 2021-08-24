@@ -1,0 +1,23 @@
+.QFrame#BaseContainer {
+    background-color: #2D2C2C;
+    border: 2px dashed rgba(255, 255, 255, 0.8);
+    border-radius: 7px;
+}
+
+.QWidget#QuestionList {
+    background-color: #2D2C2C;
+    border: 0;
+    border-radius: 7px;
+}
+
+.QFrame#QuestionItem {
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 7px;
+    margin-top: 5px;
+}
+
+.QLabel#QuestionListTitle {
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+}

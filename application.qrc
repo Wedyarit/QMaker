@@ -1,0 +1,12 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource>
+        <file>./resources/app.png</file>
+        <file>./resources/stylesheet.qss</file>
+        <file>./resources/icons/add.svg</file>
+        <file>./resources/icons/multiple_question.svg</file>
+        <file>./resources/icons/open_question.svg</file>
+        <file>./resources/icons/single_question.svg</file>
+        <file>./resources/icons/truth_question.svg</file>
+    </qresource>
+</RCC>
