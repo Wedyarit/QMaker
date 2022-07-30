@@ -11,7 +11,7 @@
             Questions list
         </h2>
         <div class="app__wrapper">
-            <div class="list-item">
+            <div class="list-item action action--default">
                 <p class="list-item__name">
                     What's 2 + 2?
                 </p>
@@ -23,7 +23,7 @@
                     </g>
                 </svg>
             </div>
-            <div class="list-item">
+            <div class="list-item action action--default">
                 <p class="list-item__name">
                     What's 2 + 2?
                 </p>
@@ -36,7 +36,7 @@
                 </svg>
             </div>
 
-            <div class="list-item">
+            <div class="list-item list-item--action action action--positive">
                 <p class="list-item__name">
                     New question
                 </p>
@@ -50,57 +50,94 @@
         </div>
     </section>
     <section class="app__box question">
-        <h2 class="app__title">
-            Question
-        </h2>
-        <div class="app__wrapper">
-            <input class="question__title" type="text" placeholder="Type question title">
-            <div class="question__option option">
-                <input class="option__text" type="text" placeholder="Type question option">
-                <div class="option__remove">
-                    <div class="option__icon"></div>
+        <div class="app__header">
+            <h2 class="app__title">
+                Question
+            </h2>
+            <div class="app__wrapper">
+                <input class="question__title" type="text" placeholder="Type question title">
+                <div class="question__option option">
+                    <input class="option__text" type="text" placeholder="Type question option">
+                    <div class="option__remove action action--negative">
+                        <div class="option__icon"></div>
+                    </div>
                 </div>
-            </div>
-            <div class="question__option option">
-                <input class="option__text" type="text" placeholder="Type question option">
-                <div class="option__remove">
-                    <div class="option__icon"></div>
+                <div class="question__option option">
+                    <input class="option__text" type="text" placeholder="Type question option">
+                    <div class="option__remove action action--negative">
+                        <div class="option__icon"></div>
+                    </div>
                 </div>
-            </div>
-            <div class="question__option option">
-                <input class="option__text" type="text" placeholder="Type question option">
-                <div class="option__remove">
-                    <div class="option__icon"></div>
+                <div class="question__option option">
+                    <input class="option__text" type="text" placeholder="Type question option">
+                    <div class="option__remove action action--negative">
+                        <div class="option__icon"></div>
+                    </div>
                 </div>
-            </div>
 
-            <div class="question__new-option">
-                <p>+ New Option +</p>
+                <div class="question__option option option--action action action--positive">
+                    <p>+ New Option +</p>
+                </div>
+            </div>
+        </div>
+        <div class="app__footer">
+            <div class="question__buttons">
+                <div class="question__button action action--default">
+                    <p>Preview</p>
+                </div>
+                <div class="question__button action action--positive">
+                    <p>Save</p>
+                </div>
             </div>
         </div>
     </section>
-    <section class="app__box question-type">
-        <h2 class="app__title">
-            Question type
-        </h2>
-        <div class="question-type__types">
-            <div class="question-type__item">
-                <p>Multiple Choice</p>
-            </div>
-            <div class="question-type__item">
-                <p>Single Choice</p>
-            </div>
-            <div class="question-type__item">
-                <p>Open Choice</p>
-            </div>
-            <div class="question-type__item">
-                <p>True / False</p>
+    <section class="app__box right-box">
+        <div class="question-type">
+            <h2 class="app__title">
+                Question type
+            </h2>
+            <div class="question-type__types">
+                <div class="question-type__item action action--default">
+                    <p>Multiple Choice</p>
+                </div>
+                <div class="question-type__item action action--default">
+                    <p>Single Choice</p>
+                </div>
+                <div class="question-type__item action action--default">
+                    <p>Open Choice</p>
+                </div>
+                <div class="question-type__item action action--default">
+                    <p>True / False</p>
+                </div>
             </div>
         </div>
+        <div class="question-theme">
+            <h2 class="app__title">
+                Themes
+            </h2>
+            <div class="question-theme__themes">
+                <div class="question-theme__item">
 
-        <h2 class="app__title">
-            Themes
-        </h2>
+                </div>
+                <div class="question-theme__item">
+
+                </div>
+                <div class="question-theme__item">
+
+                </div>
+                <div class="question-theme__item">
+
+                </div>
+            </div>
+            <div class="question-theme__buttons">
+                <div class="question-theme__button action action--default">
+                    <p>More themes</p>
+                </div>
+                <div class="question-theme__button action action--default">
+                    <p>From image</p>
+                </div>
+            </div>
+        </div>
     </section>
 </div>
 </body>
